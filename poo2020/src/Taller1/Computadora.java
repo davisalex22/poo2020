@@ -80,21 +80,50 @@ public class Computadora {
     }
     // Métodos actualizar
 
+    /**
+     * Método actualizar marca
+     * @param marca
+     */
     public void actualizar_marca(String marca) {
         this.marca = marca;
     }
+
+    /**
+     * Método actualizar procesador
+     * @param procesador
+     */
     public void actualizar_procesador(String procesador) {
         this.procesador = procesador;
     }
+
+    /**
+     * Método actualizar ram
+     * @param ram
+     */
     public void actualizar_ram(String ram) {
         this.ram = ram;
     }
+
+    /**
+     * Método actualizar peso
+     * @param peso
+     */
     public void actualizar_peso(double peso) {
         this.peso = peso;
     }
+
+    /**
+     * Método rom
+     * @param rom
+     */
     public void actualizar_rom(String rom) {
         this.rom = rom;
     }
+
+    /**
+     * Método pulgadas
+     * @param pulgadas
+     */
     public void actualizar_pulgadas(double pulgadas) {
         this.pulgadas = pulgadas;
     }

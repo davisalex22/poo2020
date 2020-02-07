@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef5163dd-4ebf-4cd8-845f-f21f59de366f" name="Default Changelist" comment="" />
+    <list default="true" id="ef5163dd-4ebf-4cd8-845f-f21f59de366f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Taller1/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Taller1/EjecutaAnimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/Taller1/Celular.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/Taller1/Celular.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/Taller1/EjecutarDocente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/Taller1/EjecutarDocente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Taller1/Celular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Taller1/Celular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Taller1/Computadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Taller1/Computadora.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +23,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1XRQLA7yFzrjdeCMw0M6gD2koF1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +35,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -32,7 +46,20 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.EjecutarDocente">
+  <component name="RunManager" selected="Application.EjecutaAnimal">
+    <configuration name="EjecutaAnimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Taller1.EjecutaAnimal" />
+      <module name="poo2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Taller1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EjecutaCelular" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Taller1.EjecutaCelular" />
       <module name="poo2020" />
@@ -52,19 +79,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Taller1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EjecutaTiempo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intropoo.EjecutaTiempo" />
-      <module name="poo2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="intropoo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EjecutarDocente" />
-        <item itemvalue="Application.EjecutarEstudiante" />
+        <item itemvalue="Application.EjecutaAnimal" />
         <item itemvalue="Application.EjecutaComputadora" />
+        <item itemvalue="Application.EjecutarEstudiante" />
+        <item itemvalue="Application.EjecutarDocente" />
         <item itemvalue="Application.EjecutaCelular" />
-        <item itemvalue="Application.EjecutaTiempo" />
       </list>
     </recent_temporary>
   </component>
@@ -121,6 +135,7 @@
       <workItem from="1581006371129" duration="73000" />
       <workItem from="1581006677705" duration="1524000" />
       <workItem from="1581081683630" duration="5307000" />
+      <workItem from="1581087362984" duration="2037000" />
     </task>
     <servers />
   </component>
@@ -128,22 +143,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1581086945382">
+    <state width="1493" height="186" key="GridCell.Tab.0.bottom" timestamp="1581089877706">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1581086945382" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1581086945381">
+    <state width="1493" height="186" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1581089877706" />
+    <state width="1493" height="186" key="GridCell.Tab.0.center" timestamp="1581089877706">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1581086945381" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1581086945381">
+    <state width="1493" height="186" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1581089877706" />
+    <state width="1493" height="186" key="GridCell.Tab.0.left" timestamp="1581089877706">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1581086945381" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1581086945381">
+    <state width="1493" height="186" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1581089877706" />
+    <state width="1493" height="186" key="GridCell.Tab.0.right" timestamp="1581089877706">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1581086945381" />
+    <state width="1493" height="186" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1581089877706" />
     <state x="0" y="0" width="1260" height="596" key="dock-window-1" timestamp="1581086389617">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

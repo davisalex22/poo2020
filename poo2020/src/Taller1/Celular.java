@@ -64,17 +64,36 @@ public class Celular {
     public void actualizar_marca(String marca) {
         this.marca = marca;
     }
+
+    /**
+     * Método Actualizar procesador
+     * @param procesador
+     */
     public void actualizar_procesador(String procesador) {
         this.procesador = procesador;
     }
+
+    /**
+     * Método Actualizar ram
+     * @param ram
+     */
     public void actualizar_ram(String ram) {
         this.ram = ram;
     }
+
+    /**
+     * Método actualizar modelo
+     * @param modelo
+     */
     public void actualizar_modelo(String modelo) {
         this.modelo = modelo;
     }
+
+    /**
+     * Método actualizar rom
+     * @param rom
+     */
     public void actualizar_rom(String rom) {
         this.rom = rom;
     }
-
 }
