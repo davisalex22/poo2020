@@ -73,7 +73,7 @@ public class Computadora {
      * @return this.ram
      */
     public String obtener_infoComputadora() {
-        String infoComputadora = "Las caracteristicas de la computadora es:\n"+"La marca es: "+marca+"\n"+"El peso es: "
+        String infoComputadora = "Las caracteristicas de la computadora son:\n"+"La marca es: "+marca+"\n"+"El peso es: "
                 +peso+"\n"+"El procesador es: "+procesador+"\n"+"La ram es:"+ram+"\n"+"La rom es: "+rom+"\n"+
                 "Las pulgadas en pantalla son: "+pulgadas;
         return infoComputadora;

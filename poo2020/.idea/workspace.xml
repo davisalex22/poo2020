@@ -2,14 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef5163dd-4ebf-4cd8-845f-f21f59de366f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Taller1/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Taller1/EjecutaAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DisenioPoo/Cerveza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DisenioPoo/EjecutaCerveza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DisenioPoo/EjecutaEstudianteUTPL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DisenioPoo/EstudianteUTPL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Taller1/EjecutaUniversidad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Taller1/EjecutaVehiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Taller1/Universidad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Taller1/Vehiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intropoo/EjecutaPersona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intropoo/Persona.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/Taller1/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/Taller1/Animal.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/poo2020/Taller1/Celular.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/Taller1/Celular.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/poo2020/Taller1/EjecutarDocente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/Taller1/EjecutarDocente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/Taller1/Computadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/Taller1/Computadora.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Taller1/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Taller1/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Taller1/Celular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Taller1/Celular.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Taller1/Computadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Taller1/Computadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Taller1/EjecutaComputadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Taller1/EjecutaComputadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Taller1/EjecutarDocente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Taller1/EjecutarDocente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +58,22 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.EjecutaAnimal">
-    <configuration name="EjecutaAnimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Taller1.EjecutaAnimal" />
+  <component name="RunManager" selected="Application.EjecutaEstudianteUTPL">
+    <configuration name="EjecutaEstudianteUTPL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DisenioPoo.EjecutaEstudianteUTPL" />
+      <module name="poo2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DisenioPoo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjecutaUniversidad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Taller1.EjecutaUniversidad" />
       <module name="poo2020" />
       <extension name="coverage">
         <pattern>
@@ -60,21 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjecutaCelular" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Taller1.EjecutaCelular" />
-      <module name="poo2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Taller1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EjecutaComputadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Taller1.EjecutaComputadora" />
+    <configuration name="EjecutaVehiculo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Taller1.EjecutaVehiculo" />
       <module name="poo2020" />
       <extension name="coverage">
         <pattern>
@@ -114,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EjecutaAnimal" />
-        <item itemvalue="Application.EjecutaComputadora" />
+        <item itemvalue="Application.EjecutaEstudianteUTPL" />
+        <item itemvalue="Application.EjecutaVehiculo" />
+        <item itemvalue="Application.EjecutaUniversidad" />
         <item itemvalue="Application.EjecutarEstudiante" />
         <item itemvalue="Application.EjecutarDocente" />
-        <item itemvalue="Application.EjecutaCelular" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +147,11 @@
       <workItem from="1581006371129" duration="73000" />
       <workItem from="1581006677705" duration="1524000" />
       <workItem from="1581081683630" duration="5307000" />
-      <workItem from="1581087362984" duration="2037000" />
+      <workItem from="1581087362984" duration="10381000" />
+      <workItem from="1581261115280" duration="243000" />
+      <workItem from="1581429398813" duration="651000" />
+      <workItem from="1581436711905" duration="94000" />
+      <workItem from="1581441470919" duration="9771000" />
     </task>
     <servers />
   </component>
@@ -143,22 +159,50 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="186" key="GridCell.Tab.0.bottom" timestamp="1581089877706">
+    <state x="473" y="117" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1581447579878">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1581089877706" />
-    <state width="1493" height="186" key="GridCell.Tab.0.center" timestamp="1581089877706">
+    <state x="473" y="117" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1536.864@0.0.1536.864" timestamp="1581447579878" />
+    <state x="324" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581446466256">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1581089877706" />
-    <state width="1493" height="186" key="GridCell.Tab.0.left" timestamp="1581089877706">
+    <state x="324" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.864@0.0.1536.864" timestamp="1581446466256" />
+    <state x="499" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581446492500">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1581089877706" />
-    <state width="1493" height="186" key="GridCell.Tab.0.right" timestamp="1581089877706">
+    <state x="499" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1581446492500" />
+    <state width="1493" height="184" key="GridCell.Tab.0.bottom" timestamp="1581452401061">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1581089877706" />
+    <state width="1493" height="184" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1581452401061" />
+    <state width="1493" height="184" key="GridCell.Tab.0.center" timestamp="1581452401061">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="184" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1581452401061" />
+    <state width="1493" height="184" key="GridCell.Tab.0.left" timestamp="1581452401060">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="184" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1581452401060" />
+    <state width="1493" height="184" key="GridCell.Tab.0.right" timestamp="1581452401061">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="184" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1581452401061" />
+    <state width="1493" height="95" key="GridCell.Tab.1.bottom" timestamp="1581098294981">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="95" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1581098294981" />
+    <state width="1493" height="95" key="GridCell.Tab.1.center" timestamp="1581098294981">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="95" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1581098294981" />
+    <state width="1493" height="95" key="GridCell.Tab.1.left" timestamp="1581098294980">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="95" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1581098294980" />
+    <state width="1493" height="95" key="GridCell.Tab.1.right" timestamp="1581098294981">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="95" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1581098294981" />
     <state x="0" y="0" width="1260" height="596" key="dock-window-1" timestamp="1581086389617">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -167,5 +211,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="251" y="65" key="refactoring.ChangeSignatureDialog/0.0.1536.864@0.0.1536.864" timestamp="1581082436884" />
+    <state x="425" y="197" key="run.anything.popup" timestamp="1581097982716">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1581097982716" />
   </component>
 </project>

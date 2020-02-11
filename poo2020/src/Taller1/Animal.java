@@ -8,50 +8,42 @@ public class Animal {
     private int horas;
     private String genero;
     private int recorre;
-    //metodos de comer duerme reproduce y camina
 
     /**
-     * Metodo que sirve para indicar que animal esta comiendo
-     * @return comida
+     * Método para obtener la variable comida
+     *      * @return comida
      */
-    public String obtener_Comida(){
-        return this.comida;
-    }
-
+    public String obtener_Comida(){return this.comida;}
     /**
-     * Metodo que sirve para indicar el numero de horas que duerme el animal
+     * Método para obtener el valor de la variable horas
      * @return genero
      */
     public int obtener_Horas(){
         return this.horas;
     }
-
     /**
-     * Metodo que sirve para indicar el nombre
+     * Método para obtener el valor de la variable nombre
      * @return nombre
      */
     public String obtener_Nombre(){
         return this.raza;
     }
     /**
-     * Metodo que sirve para indicar que el peso del animal
-     * @return materia
+     * Método para obtener el valor de la variable peso
+     * @return peso
      */
     public int obtener_Peso(){
         return this.peso;
     }
-
     /**
-     * Metodo que sirve para indicar que el animal esta en celo
+     * Método para obtener el valor de la variable libro
      * @return libro
      */
     public String obtener_Genero(){
         return this.genero;
     }
-
-
     /**
-     * Metodo que sirve para indicar cuantos metros recorrre el animal
+     * Método para obtener el valor de la variable recorre
      * @return edad
      */
     public int obtener_Recorrido(){
@@ -59,31 +51,31 @@ public class Animal {
     }
 
     /**
-     * Metodo qeu extrae todos los datos de los animales
+     * Metodo qeu extrae los datos de la clase Animal
      * @return
      */
     public String obtenerDatos(){
-        String data = "Nombre del animal: \n" +raza+"\n"+"Peso: \n"+peso+"\n"+"Tipo de Comida:\n"+comida+"\n"
-                +"Horas de sueño:\n"+horas+"\n"+"Metros recorridos: \n"+recorre+"\n"+"Género"+genero;
+        String data = "Nombre del animal: " +raza+"\n"+"Peso: "+peso+"\n"+"Tipo de Comida: "+comida+"\n"
+                +"Horas de sueño: "+horas+"\n"+"Metros recorridos: "+recorre+"\n"+"Género: "+genero;
         return data;
     }
 
     /**
-     *Metodo que sirve para actualizar la comida
+     *Metodo que sirve para actualizar  comida
      * @param comida
      */
     public void actualizar_Comida(String comida){
         this.comida = comida;
     }
     /**
-     *Metodo que sirve para actualizar la raza
+     *Metodo que sirve para actualizar  raza
      * @param raza
      */
     public void actualizar_Raza(String raza){
         this.raza = raza;
     }
     /**
-     *Metodo que sirve para actualizar el peso
+     *Metodo que sirve para actualizar peso
      * @param peso
      *
      */
@@ -91,7 +83,7 @@ public class Animal {
         this.peso = peso;
     }
     /**
-     *Metodo que sirve para actualizar el  celo del animal
+     *Metodo que sirve para actualizar género
      * @param genero
      */
     public void actualizar_Genero(String genero){

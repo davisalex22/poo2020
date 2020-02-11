@@ -9,7 +9,7 @@ public class EjecutarDocente {
         docente.actualizar_peso(65.5);
         docente.actualizar_genero("Masculino");
         docente.actualizar_estatura(1.80);
-        docente.actualizar_materia("Programacion orientada a objetos");
+        docente.actualizar_materia("Programación orientada a objetos");
         String mostrar_informacion = docente.obtener_informacion() ;
         System.out.println(mostrar_informacion);
 

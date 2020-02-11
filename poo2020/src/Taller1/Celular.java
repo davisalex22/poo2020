@@ -46,11 +46,11 @@ public class Celular {
         return this.rom;
     }
     /**
-     * Método para obtener el valor de la variable infoComputadora
+     * Método para obtener el valor de la variable infoCelular
      * @return this.ram
      */
     public String obtener_infoCelular() {
-        String infoComputadora = "Las caracteristicas del Celular es:\n"+"La marca es: "+marca+"\n"+"El modelo es: "
+        String infoComputadora = "Las caracteristicas del Celular son:\n"+"La marca es: "+marca+"\n"+"El modelo es: "
                 +modelo+"\n"+"El procesador es: "+procesador+"\n"+"La ram es:"+ram+"\n"+"La rom es: "+rom+"\n";
         return infoComputadora;
     }
