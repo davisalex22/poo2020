@@ -8,7 +8,8 @@ public class EjecutaEstudianteUTPL {
         String nombre;
         String cicloAcademico;
         String materia;
-        // Ingreso de datos por JOptionPane
+        // Ingreso de datos por JOptionPanes
+
         nombre = (JOptionPane.showInputDialog("Ingrese su Nombre"));
         cicloAcademico = (JOptionPane.showInputDialog("Ingrese el Ciclo Académico "));
         materia = (JOptionPane.showInputDialog("Ingrese la Materia"));

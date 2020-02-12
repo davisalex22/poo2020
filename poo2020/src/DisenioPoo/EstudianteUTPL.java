@@ -20,7 +20,7 @@ public class EstudianteUTPL {
         this.notaBimI = notaBimI;
         this.notaBimII = notaBimII;
         this.nombreEstudiante = nombreEstudiante;
-        this.cicloAcademico = cicloAcademico
+        this.cicloAcademico = cicloAcademico;
         this.materia = materia;
     }
     //  Métodos
