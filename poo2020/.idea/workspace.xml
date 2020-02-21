@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef5163dd-4ebf-4cd8-845f-f21f59de366f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/arreglosDeberPoo/ConvertorBinario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arreglosDeberPoo/ConvertorBinario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arreglosDeberPoo/EjecutaBinario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arreglosDeberPoo/EjecutaConvertorBinario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MatrizImplementacion/EjecutaMatriz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MatrizImplementacion/Matriz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/matrizpoo/EjectuaMatrizTranspuesta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/matrizpoo/MatrizTranspuesta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +48,33 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.EjecutaConvertorBinario">
+  <component name="RunManager" selected="Application.EjectuaMatrizTranspuesta">
+    <configuration name="EjectuaMatrizTranspuesta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="matrizpoo.EjectuaMatrizTranspuesta" />
+      <module name="poo2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="matrizpoo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjecutaArreglo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arreglo_poo.EjecutaArreglo" />
+      <module name="poo2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arreglo_poo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EjecutaConvertorBinario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arreglosDeberPoo.EjecutaConvertorBinario" />
       <module name="poo2020" />
@@ -59,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjecutaDesviacionMedia2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arreglo_poo.EjecutaDesviacionMedia2" />
+    <configuration name="EjecutaMatriz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MatrizImplementacion.EjecutaMatriz" />
       <module name="poo2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arreglo_poo.*" />
+          <option name="PATTERN" value="MatrizImplementacion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,38 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjecutaSuma (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arreglo_poo.EjecutaSuma" />
+    <configuration name="EjecutaPromedio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="matrizpoo.EjecutaPromedio" />
       <module name="poo2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arreglo_poo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EjecutaSuma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sumaArreglo.EjecutaSuma" />
-      <module name="poo2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sumaArreglo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EjecutaVerificadorCedula" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arreglosDeberPoo.EjecutaVerificadorCedula" />
-      <module name="poo2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arreglosDeberPoo.*" />
+          <option name="PATTERN" value="matrizpoo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjectuaMatrizTranspuesta" />
+        <item itemvalue="Application.EjecutaPromedio" />
+        <item itemvalue="Application.EjecutaMatriz" />
+        <item itemvalue="Application.EjecutaArreglo" />
         <item itemvalue="Application.EjecutaConvertorBinario" />
-        <item itemvalue="Application.EjecutaSuma (1)" />
-        <item itemvalue="Application.EjecutaDesviacionMedia2" />
-        <item itemvalue="Application.EjecutaSuma" />
-        <item itemvalue="Application.EjecutaVerificadorCedula" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +153,10 @@
       <workItem from="1582236497871" duration="21126000" />
       <workItem from="1582257800629" duration="21000" />
       <workItem from="1582258122817" duration="127000" />
-      <workItem from="1582258821933" duration="333000" />
+      <workItem from="1582258821933" duration="1090000" />
+      <workItem from="1582292832668" duration="14687000" />
+      <workItem from="1582312024984" duration="96000" />
+      <workItem from="1582312175189" duration="25000" />
     </task>
     <servers />
   </component>
@@ -166,10 +172,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1582208842387" />
-    <state x="473" y="112" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1582256620067">
+    <state x="473" y="112" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1582306577773">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="473" y="112" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1536.824@0.0.1536.824" timestamp="1582256620067" />
+    <state x="473" y="112" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1536.824@0.0.1536.824" timestamp="1582306577773" />
     <state x="473" y="117" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1536.864@0.0.1536.864" timestamp="1581633649717" />
     <state x="295" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582256484963">
       <screen x="0" y="0" width="1536" height="824" />
@@ -180,49 +186,49 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1581446492500" />
-    <state width="1493" height="212" key="GridCell.Tab.0.bottom" timestamp="1582258249815">
+    <state width="1493" height="233" key="GridCell.Tab.0.bottom" timestamp="1582312199936">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581727854421" />
-    <state width="1493" height="212" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582258249815" />
+    <state width="1493" height="233" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582312199936" />
     <state width="1493" height="34" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1581636799387" />
-    <state width="1493" height="212" key="GridCell.Tab.0.center" timestamp="1582258249814">
+    <state width="1493" height="233" key="GridCell.Tab.0.center" timestamp="1582312199935">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581727854421" />
-    <state width="1493" height="212" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582258249814" />
+    <state width="1493" height="233" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582312199935" />
     <state width="1493" height="34" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1581636799387" />
-    <state width="1493" height="212" key="GridCell.Tab.0.left" timestamp="1582258249814">
+    <state width="1493" height="233" key="GridCell.Tab.0.left" timestamp="1582312199935">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581727854421" />
-    <state width="1493" height="212" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582258249814" />
+    <state width="1493" height="233" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582312199935" />
     <state width="1493" height="34" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1581636799387" />
-    <state width="1493" height="212" key="GridCell.Tab.0.right" timestamp="1582258249814">
+    <state width="1493" height="233" key="GridCell.Tab.0.right" timestamp="1582312199935">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581727854421" />
-    <state width="1493" height="212" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582258249814" />
+    <state width="1493" height="233" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582312199935" />
     <state width="1493" height="34" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1581636799387" />
-    <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1582257787916">
+    <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1582308029513">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582257787916" />
+    <state width="1493" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582308029513" />
     <state width="1493" height="95" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1581098294981" />
-    <state width="1493" height="260" key="GridCell.Tab.1.center" timestamp="1582257787916">
+    <state width="1493" height="260" key="GridCell.Tab.1.center" timestamp="1582308029512">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582257787916" />
+    <state width="1493" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582308029512" />
     <state width="1493" height="95" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1581098294981" />
-    <state width="1493" height="260" key="GridCell.Tab.1.left" timestamp="1582257787916">
+    <state width="1493" height="260" key="GridCell.Tab.1.left" timestamp="1582308029512">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582257787916" />
+    <state width="1493" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582308029512" />
     <state width="1493" height="95" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1581098294980" />
-    <state width="1493" height="260" key="GridCell.Tab.1.right" timestamp="1582257787916">
+    <state width="1493" height="260" key="GridCell.Tab.1.right" timestamp="1582308029513">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582257787916" />
+    <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582308029512" />
     <state width="1493" height="95" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1581098294981" />
     <state x="0" y="0" width="1260" height="596" key="dock-window-1" timestamp="1581086389617">
       <screen x="0" y="0" width="1536" height="864" />
