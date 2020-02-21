@@ -28,7 +28,7 @@ package arreglosDeberPoo;
         }
         /**
          * Metodo para convertir String en Int
-         * @return nums
+         * @return numeros
          */
         public int[] trasformarInt() {
             int[] numeros = new int[getNumCedula().length()];
@@ -62,7 +62,7 @@ package arreglosDeberPoo;
         }
         /**
          * Método para la presentar en Pantalla
-         * @return
+         * @return cadena
          */
         public String presentarVerificacion() {
             if (trasformarInt()[9] == obtenerVerificador()) {

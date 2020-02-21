@@ -24,7 +24,7 @@ public class ConvertorBinario {
     }
     /**
      * Método para transformar String a Int
-     * @return
+     * @return numeros
      */
     public int[] transformacionInt() {
         int[] numeros = new int[getNumBinario().length()];
@@ -35,7 +35,7 @@ public class ConvertorBinario {
     }
     /**
      * Método para transformacion binario a decimal
-     * @return
+     * @return suma
      */
     public double obtenerDecimal() {
         suma = 0;
@@ -50,7 +50,7 @@ public class ConvertorBinario {
      * Metodo para la presentacion final en pantalla
      * @return
      */
-    public  String presentar() {
+    public  String presentarDecimal() {
         cadena =String.format("%s en binario = %.2f en decimal", getNumBinario(), obtenerDecimal());
         return cadena;
     }
