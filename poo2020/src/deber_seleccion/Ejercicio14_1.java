@@ -45,9 +45,7 @@ public class Ejercicio14_1 {
     public void setCalif3(double calif3) {
         this.calif3 = calif3;
     }
-    public double getCalif4() {
-        return calif4;
-    }
+    public double getCalif4() {return calif4;}
     public void setCalif4(double calif4) {
         this.calif4 = calif4;
     }
