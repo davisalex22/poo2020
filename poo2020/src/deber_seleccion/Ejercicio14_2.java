@@ -13,9 +13,9 @@ public class Ejercicio14_2 {
      * @param htrabajadas
      */
     public Ejercicio14_2(String nombre, double vhoras,double htrabajadas){
-        this.setNombre(nombre);
-        this.setVhoras(vhoras);
-        this.setHtrabajadas(htrabajadas);
+        this.nombre = nombre;
+        this.vhoras = vhoras;
+        this.htrabajadas = htrabajadas;
     }
     public String getNombre() {
         return nombre;

@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef5163dd-4ebf-4cd8-845f-f21f59de366f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MatrizImplementacion/EjecutaMatriz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MatrizImplementacion/Matriz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/matrizpoo/EjectuaMatrizTranspuesta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/matrizpoo/MatrizTranspuesta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MatrizImplementacion/Matriz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MatrizImplementacion/Matriz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arreglo_poo/Arreglo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arreglo_poo/Arreglo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arreglosDeberPoo/ConvertorBinario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arreglosDeberPoo/ConvertorBinario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arreglosDeberPoo/EstudiateUniversitario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arreglosDeberPoo/EstudiateUniversitario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arreglosDeberPoo/VerificadorCedula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arreglosDeberPoo/VerificadorCedula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/deber_seleccion/Ejercicio14_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deber_seleccion/Ejercicio14_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/deber_seleccion/Ejercicio14_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deber_seleccion/Ejercicio14_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/deber_seleccion/Ejercicio14_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deber_seleccion/Ejercicio14_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/disenio_repeticion/Empleado_for.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/disenio_repeticion/Empleado_for.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/disenio_repeticion/Empleado_while.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/disenio_repeticion/Empleado_while.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/disenio_seleccion/Dia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/disenio_seleccion/Dia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/disenio_seleccion/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/disenio_seleccion/Empleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/matrizpoo/MatrizTranspuesta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrizpoo/MatrizTranspuesta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/matrizpoo/Promedio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrizpoo/Promedio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/taller_repeticion/Cajero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/taller_repeticion/Cajero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/taller_repeticion/Ejercicio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/taller_repeticion/Ejercicio3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/taller_repeticion/Sumas_repetitivas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/taller_repeticion/Sumas_repetitivas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,6 +169,7 @@
       <workItem from="1582292832668" duration="14687000" />
       <workItem from="1582312024984" duration="96000" />
       <workItem from="1582312175189" duration="25000" />
+      <workItem from="1582819001201" duration="490000" />
     </task>
     <servers />
   </component>

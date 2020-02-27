@@ -13,8 +13,8 @@ public class Arreglo {
      * @param vectorB
      */
     public Arreglo(int vectorA [], int vectorB []) {
-        this.setVectorA(vectorA);
-        this.setVectorB(vectorB);
+        this.vectorA = vectorA;
+        this.vectorB = vectorB;
     }
 
      public int[] getVectorA() {

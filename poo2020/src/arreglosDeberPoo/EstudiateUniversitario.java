@@ -15,10 +15,10 @@ public class EstudiateUniversitario {
      * @param celular
      */
     public EstudiateUniversitario(String nombre[], int edad[], String universidad[], String celular[]){
-        this.setNombre(nombre);
-        this.setEdad(edad);
-        this.setUniversidad(universidad);
-        this.setCelular(celular);
+        this.nombre = nombre;
+        this.edad = edad;
+        this.universidad = universidad;
+        this.celular = celular;
     }
 
     // Métodos get y set de las variables globales

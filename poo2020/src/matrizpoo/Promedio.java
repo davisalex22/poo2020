@@ -8,7 +8,7 @@ public class Promedio {
     private  String cadena = "Matriz ingresada:\n\n";
 
     public Promedio(int[][] matrizA) {
-        this.setMatrizA(matrizA);
+        this.matrizA = matrizA;
 
     }
 

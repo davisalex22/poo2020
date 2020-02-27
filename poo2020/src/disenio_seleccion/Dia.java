@@ -12,7 +12,7 @@ public class Dia {
      * @param numDia
      */
     public Dia(int numDia){
-        this.setNumDia(numDia);
+        this.numDia = numDia;
     }
     // Métodos get y set de las variables globales
     public int getNumDia() {

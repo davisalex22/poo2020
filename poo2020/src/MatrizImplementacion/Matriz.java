@@ -12,8 +12,8 @@ public class Matriz {
      * @param matrizB
      */
     public Matriz(int matrizA [][], int matrizB [][]){
-        this.setMatrizA(matrizA);
-        this.setMatrizB(matrizB);
+        this.matrizA = matrizA;
+        this.matrizB = matrizB;
     }
 
 

@@ -16,7 +16,7 @@ public class Cajero {
      * @param retiros
      */
     public Cajero(String nombre, double saldo, int retiros){
-        this.setNombre(nombre);
+        this.nombre = nombre;
         this.saldo = saldo;
         this.retiros = retiros;
     }

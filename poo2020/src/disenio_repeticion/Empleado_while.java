@@ -15,9 +15,9 @@ public class Empleado_while {
      * @param nombre
      */
     public Empleado_while(String nombre , int horasTrabajadas, double valorHoras){
-        this.setHorasTrabajadas(horasTrabajadas);
-        this.setValorHoras(valorHoras);
-        this.setNombre(nombre);
+        this.horasTrabajadas = horasTrabajadas;
+        this.valorHoras = valorHoras;
+        this.nombre = nombre;
     }
     // Métodos get y set de variables globales
     public int getHorasTrabajadas() {

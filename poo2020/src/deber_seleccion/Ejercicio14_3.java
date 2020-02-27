@@ -16,10 +16,10 @@ public class Ejercicio14_3 {
      * @param num4
      */
     public Ejercicio14_3(double num1, double num2, double num3, double num4) {
-        this.setNum1(num1);
-        this.setNum2(num2);
-        this.setNum3(num3);
-        this.setNum4(num4);
+        this.num1 = num1;
+        this.num2 = num2;
+        this.num3 = num3;
+        this.num4 = num4;
     }
     // Métodos get y set de variables globales
     public double getNum1() {

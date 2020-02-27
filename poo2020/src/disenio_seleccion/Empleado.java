@@ -13,9 +13,9 @@ public class Empleado {
      * @param valorHora
      */
     public Empleado(String nombreEmpleado, int horasTrabajadas, int valorHora){
-        this.setNombreEmpleado(nombreEmpleado);
-        this.setValorHora(valorHora);
-        this.setHorasTrabajadas(horasTrabajadas);
+        this.nombreEmpleado = nombreEmpleado;
+        this.valorHora = valorHora;
+        this.horasTrabajadas = horasTrabajadas;
     }
     // Métodos get y set de las variables globales
     public String getNombreEmpleado() {

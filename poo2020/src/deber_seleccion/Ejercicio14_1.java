@@ -17,11 +17,11 @@ public class Ejercicio14_1 {
      * @param calif4
      */
     public Ejercicio14_1(String nombre, double calif1, double calif2, double calif3, double calif4){
-        this.setNombre(nombre);
-        this.setCalif1(calif1);
-        this.setCalif2(calif2);
-        this.setCalif3(calif3);
-        this.setCalif4(calif4);
+        this.nombre = nombre;
+        this.calif1 = calif1;
+        this.calif2 = calif2;
+        this.calif3 = calif3;
+        this.calif4 = calif4;
     }
     // Métodos get y set de las variables globales
 

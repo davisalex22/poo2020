@@ -7,8 +7,8 @@ public class Ejercicio3 {
     private double total;
 
     public Ejercicio3(double num1, double num2){
-        this.setNum1(num1);
-        this.setNum2(num2);
+        this.num1 = num1;
+        this.num2 = num2;
     }
     // Métodos get y set de variables globales
     public double getNum1() {

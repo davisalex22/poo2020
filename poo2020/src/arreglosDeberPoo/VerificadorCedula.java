@@ -15,7 +15,7 @@ package arreglosDeberPoo;
          * @param numCedula
          */
         public VerificadorCedula(String numCedula) {
-            this.setNumCedula(numCedula);
+            this.numCedula = numCedula;
         }
 
         // Métodos get y set numCedula

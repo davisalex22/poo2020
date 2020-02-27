@@ -13,7 +13,7 @@ public class ConvertorBinario {
      * @param numBinario
      */
     public ConvertorBinario(String numBinario) {
-        this.setNumBinario(numBinario);
+        this.numBinario = numBinario;
     }
     // Métodos get y set de numBinario
     public String getNumBinario() {

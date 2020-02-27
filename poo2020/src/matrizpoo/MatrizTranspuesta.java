@@ -9,7 +9,7 @@ public class MatrizTranspuesta {
      * @param matrizA
      */
     public MatrizTranspuesta(int matrizA[][]){
-        this.setMatrizA(matrizA);
+        this.matrizA = matrizA;
     }
     // Método get y set Matriz A
     public int[][] getMatrizA() {
