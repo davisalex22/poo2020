@@ -2,23 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef5163dd-4ebf-4cd8-845f-f21f59de366f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/MatrizImplementacion/Matriz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MatrizImplementacion/Matriz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arreglo_poo/Arreglo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arreglo_poo/Arreglo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arreglosDeberPoo/ConvertorBinario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arreglosDeberPoo/ConvertorBinario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arreglosDeberPoo/EstudiateUniversitario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arreglosDeberPoo/EstudiateUniversitario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arreglosDeberPoo/VerificadorCedula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arreglosDeberPoo/VerificadorCedula.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deber_seleccion/Ejercicio14_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deber_seleccion/Ejercicio14_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deber_seleccion/Ejercicio14_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deber_seleccion/Ejercicio14_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deber_seleccion/Ejercicio14_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deber_seleccion/Ejercicio14_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/disenio_repeticion/Empleado_for.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/disenio_repeticion/Empleado_for.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/disenio_repeticion/Empleado_while.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/disenio_repeticion/Empleado_while.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/disenio_seleccion/Dia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/disenio_seleccion/Dia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/disenio_seleccion/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/disenio_seleccion/Empleado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/matrizpoo/MatrizTranspuesta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrizpoo/MatrizTranspuesta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/matrizpoo/Promedio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrizpoo/Promedio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/taller_repeticion/Cajero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/taller_repeticion/Cajero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/taller_repeticion/Ejercicio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/taller_repeticion/Ejercicio3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/taller_repeticion/Sumas_repetitivas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/taller_repeticion/Sumas_repetitivas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/herencia_empleado/EjecutaEmpleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/herencia_empleado/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/herencia_empleado/EmpleadoAsalariado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/herencia_empleado/EmpleadoPorHora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/MatrizImplementacion/Matriz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/MatrizImplementacion/Matriz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/arreglosDeberPoo/ConvertorBinario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/arreglosDeberPoo/ConvertorBinario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/deber_seleccion/Ejercicio14_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/deber_seleccion/Ejercicio14_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/deber_seleccion/Ejercicio14_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/deber_seleccion/Ejercicio14_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/deber_seleccion/Ejercicio14_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/deber_seleccion/Ejercicio14_3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/disenio_seleccion/Dia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/disenio_seleccion/Dia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/matrizpoo/MatrizTranspuesta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/matrizpoo/MatrizTranspuesta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/matrizpoo/Promedio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/matrizpoo/Promedio.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +56,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.EjectuaMatrizTranspuesta">
+  <component name="RunManager" selected="Application.EjecutaEmpleado">
     <configuration name="EjectuaMatrizTranspuesta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="matrizpoo.EjectuaMatrizTranspuesta" />
       <module name="poo2020" />
@@ -87,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjecutaConvertorBinario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arreglosDeberPoo.EjecutaConvertorBinario" />
+    <configuration name="EjecutaEmpleado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="herencia_empleado.EjecutaEmpleado" />
       <module name="poo2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arreglosDeberPoo.*" />
+          <option name="PATTERN" value="herencia_empleado.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjecutaEmpleado" />
         <item itemvalue="Application.EjectuaMatrizTranspuesta" />
         <item itemvalue="Application.EjecutaPromedio" />
         <item itemvalue="Application.EjecutaMatriz" />
         <item itemvalue="Application.EjecutaArreglo" />
-        <item itemvalue="Application.EjecutaConvertorBinario" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +165,8 @@
       <workItem from="1582292832668" duration="14687000" />
       <workItem from="1582312024984" duration="96000" />
       <workItem from="1582312175189" duration="25000" />
-      <workItem from="1582819001201" duration="490000" />
+      <workItem from="1582819001201" duration="555000" />
+      <workItem from="1582819584944" duration="2374000" />
     </task>
     <servers />
   </component>
@@ -185,10 +182,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1582208842387" />
-    <state x="473" y="112" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1582306577773">
+    <state x="473" y="112" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1582820063295">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="473" y="112" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1536.824@0.0.1536.824" timestamp="1582306577773" />
+    <state x="473" y="112" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1536.824@0.0.1536.824" timestamp="1582820063295" />
     <state x="473" y="117" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1536.864@0.0.1536.864" timestamp="1581633649717" />
     <state x="295" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582256484963">
       <screen x="0" y="0" width="1536" height="824" />
@@ -199,29 +196,29 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1581446492500" />
-    <state width="1493" height="233" key="GridCell.Tab.0.bottom" timestamp="1582312199936">
+    <state width="1493" height="233" key="GridCell.Tab.0.bottom" timestamp="1582821960131">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581727854421" />
-    <state width="1493" height="233" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582312199936" />
+    <state width="1493" height="233" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582821960131" />
     <state width="1493" height="34" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1581636799387" />
-    <state width="1493" height="233" key="GridCell.Tab.0.center" timestamp="1582312199935">
+    <state width="1493" height="233" key="GridCell.Tab.0.center" timestamp="1582821960131">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581727854421" />
-    <state width="1493" height="233" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582312199935" />
+    <state width="1493" height="233" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582821960131" />
     <state width="1493" height="34" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1581636799387" />
-    <state width="1493" height="233" key="GridCell.Tab.0.left" timestamp="1582312199935">
+    <state width="1493" height="233" key="GridCell.Tab.0.left" timestamp="1582821960131">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581727854421" />
-    <state width="1493" height="233" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582312199935" />
+    <state width="1493" height="233" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582821960131" />
     <state width="1493" height="34" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1581636799387" />
-    <state width="1493" height="233" key="GridCell.Tab.0.right" timestamp="1582312199935">
+    <state width="1493" height="233" key="GridCell.Tab.0.right" timestamp="1582821960131">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581727854421" />
-    <state width="1493" height="233" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582312199935" />
+    <state width="1493" height="233" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582821960131" />
     <state width="1493" height="34" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1581636799387" />
     <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1582308029513">
       <screen x="0" y="0" width="1536" height="824" />
