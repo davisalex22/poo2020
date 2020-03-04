@@ -27,7 +27,7 @@ public class EmpleadoAut {
     }
 
     public String getPuestoA() {
-        return puestoA;
+        return puestoA ;
     }
 
     public void setPuestoA(String puestoA) {

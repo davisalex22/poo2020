@@ -7,6 +7,7 @@ public class PrestamoAutomovil extends Deudores{
 
     /**
      * Método Constructor clase PrestamoAutomovil
+     *
      * @param nombreD
      * @param numeroCuenta
      * @param capitalPrestamo
