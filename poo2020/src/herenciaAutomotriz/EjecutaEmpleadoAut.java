@@ -10,7 +10,7 @@ public class EjecutaEmpleadoAut {
         double sueldoMensual,valorTrabajo = 0,precioAutos = 0,sueldoMinimo;
 
         // Iniciación de cadena con encabezado
-        presentacion = String.format("%20s%20s%20s%20s%20s\n","RFC","Nombre","Departamento","Puesto","Sueldo Quincena");
+        presentacion = String.format("%20s%20s%25s%22s%35s\n","RFC","Nombre","Departamento","Puesto","Sueldo Quincena");
         // Ciclo While
         while (nuevoEmpleado == 0) {
             // Seleccion de calculo a realizar
@@ -30,7 +30,7 @@ public class EjecutaEmpleadoAut {
                     nomPuesto = "Administrativo";
                     EmpAdmvo admi = new EmpAdmvo(nombre,departamento,nomPuesto,sueldoMensual);
                     admi.calcularSueldoAdmvo();
-                    cadena = String.format("%20s%20s%20s%20s",admi.getNombreA(),admi.getDepartamentoA(),
+                    cadena = String.format("%25s%25s%30s%25s",admi.getNombreA(),admi.getDepartamentoA(),
                             admi.getPuestoA(),admi.obtenerSueldoAdmvo());
                     break;
                 case 1:
@@ -47,7 +47,7 @@ public class EjecutaEmpleadoAut {
                     EmpMecanico mecanico = new EmpMecanico(nombre, departamento, nomPuesto, numTrabajos, valorTrabajo
                              ,sueldoMensual);
                     mecanico.calcularSueldoMecanico();
-                    cadena = String.format("%20s%20s%20s%20s", mecanico.getNombreA(), mecanico.getDepartamentoA(),
+                    cadena = String.format("%25s%25s%30s%25s", mecanico.getNombreA(), mecanico.getDepartamentoA(),
                             mecanico.getPuestoA(), mecanico.obtenerSueldoMecanico());
                     break;
                 case 2:
@@ -63,7 +63,7 @@ public class EjecutaEmpleadoAut {
                     EmpVendedor vendedor = new EmpVendedor(nombre,departamento,nomPuesto,numAutos,precioAutos,
                             sueldoMinimo);
                     vendedor.calcularSueldoVendedor();
-                    cadena = String.format("%20s%20s%20s%20s",vendedor.getNombreA(),vendedor.getDepartamentoA(),
+                    cadena = String.format("%25s%25s%30s%25s",vendedor.getNombreA(),vendedor.getDepartamentoA(),
                             vendedor.getPuestoA(),vendedor.obtenerSueldoVendedor());
                     break;
                 case 3:
@@ -74,7 +74,7 @@ public class EjecutaEmpleadoAut {
             }
             contador += 1;
             // Acumulacion de cadenas para presentar en pantalla
-            presentacion = String.format("%s%30d%s\n",presentacion,contador,cadena);
+            presentacion = String.format("%s%20d%s\n",presentacion,contador,cadena);
             // A continuacion se evaluara un posible nuevo calculo
             if (seleccion <= 2) {
                 // Seleccion de calcula a realizar

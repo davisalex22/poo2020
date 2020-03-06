@@ -26,7 +26,7 @@ public class EjecutaFigurasGeo {
                     cubo.calcularVolCubo();
                     // Presentacion en pantalla por JOptionPane
                     JOptionPane.showMessageDialog(null, "Nombre: " + cubo.getNombre() + "\n" +
-                                    "Volumen: " + cubo.obtenerVolCubo() + "\n", "Cálculo del Volumen",
+                            String.format("Volumen: %.2f",cubo.obtenerVolCubo()) + "\n", "Cálculo del Volumen",
                             JOptionPane.INFORMATION_MESSAGE);
                     break;
                 case 1:
@@ -39,7 +39,7 @@ public class EjecutaFigurasGeo {
                     cilindro.calcularVolCilindro();
                     // Presentacion en pantalla por JOptionPane
                     JOptionPane.showMessageDialog(null, "Nombre: " + cilindro.getNombre() + "\n" +
-                                    "Volumen: " + cilindro.obtenerVolCilindro() + "\n", "Cálculo del Volumen",
+                            String.format("Volumen: %.2f",cilindro.obtenerVolCilindro()) + "\n", "Cálculo del Volumen",
                             JOptionPane.INFORMATION_MESSAGE);
                     break;
                 case 2:
@@ -52,7 +52,7 @@ public class EjecutaFigurasGeo {
                     cono.calcularVolCono();
                     // Presentacion en pantalla por JOptionPane
                     JOptionPane.showMessageDialog(null, "Nombre: " + cono.getNombre() + "\n" +
-                                    "Volumen: " + cono.obtenerVolCono() + "\n", "Cálculo del Volumen",
+                            String.format("Volumen: %.2f", cono.obtenerVolCono()) + "\n", "Cálculo del Volumen",
                             JOptionPane.INFORMATION_MESSAGE);
                     break;
                 case 3:
@@ -64,8 +64,8 @@ public class EjecutaFigurasGeo {
                     esfera.calcularVolEsfera();
                     // Presentacion en pantalla por JOptionPane
                     JOptionPane.showMessageDialog(null, "Nombre: " + esfera.getNombre() + "\n" +
-                                    "Volumen: " + esfera.obtenerVolEsfera() + "\n", "Cálculo del Volumen",
-                            JOptionPane.INFORMATION_MESSAGE);
+                                    String.format("Volumen: %.2f",esfera.obtenerVolEsfera()) + "\n",
+                            "Cálculo del Volumen",JOptionPane.INFORMATION_MESSAGE);
                     break;
                 case 4:
                     // En caso de seleccionar Fin nuevaFigura sera = 0 para salir del bucle
