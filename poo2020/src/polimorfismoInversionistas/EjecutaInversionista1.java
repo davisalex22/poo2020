@@ -23,7 +23,7 @@ public class EjecutaInversionista1 {
                     ahorro1.setCapitalInvertido(Double.parseDouble(JOptionPane.showInputDialog("Ingrese capital")));
                     ahorro1.setAnios(Integer.parseInt(JOptionPane.showInputDialog("Ingrese años")));
                     ahorro1.calcularInteres();
-                    cadena = String.format("%30s%20s%20s", ahorro1.getNombreC(), ahorro1.getNumeroCuenta(),
+                    cadena = String.format("%30s%20s%20.2f", ahorro1.getNombreC(), ahorro1.getNumeroCuenta(),
                             ahorro1.getInteresGanado());
                     break;
                 case 1:
@@ -33,7 +33,7 @@ public class EjecutaInversionista1 {
                     pagare1.setCapitalInvertido(Double.parseDouble(JOptionPane.showInputDialog("Ingrese capital ")));
                     pagare1.setAnios(Integer.parseInt(JOptionPane.showInputDialog("Ingrese años")));
                     pagare1.calcularInteres();
-                    cadena = String.format("%30s%20s%20s", pagare1.getNombreC(), pagare1.getNumeroCuenta(),
+                    cadena = String.format("%30s%20s%20.2f", pagare1.getNombreC(), pagare1.getNumeroCuenta(),
                             pagare1.getInteresGanado());
                     break;
                 case 2:
@@ -43,7 +43,7 @@ public class EjecutaInversionista1 {
                     maestra1.setCapitalInvertido(Double.parseDouble(JOptionPane.showInputDialog("Ingrese capital")));
                     maestra1.setAnios(Integer.parseInt(JOptionPane.showInputDialog("Ingrese años")));
                     maestra1.calcularInteres();
-                    cadena = String.format("%30s%20s%20s", maestra1.getNombreC(), maestra1.getNumeroCuenta(),
+                    cadena = String.format("%30s%20s%20.2f", maestra1.getNombreC(), maestra1.getNumeroCuenta(),
                             maestra1.getInteresGanado());
                     break;
                 case 3:

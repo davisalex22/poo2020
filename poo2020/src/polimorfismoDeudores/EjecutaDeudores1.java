@@ -6,9 +6,8 @@ import javax.swing.*;
 public class EjecutaDeudores1 {
     public static void main(String[] args) {
 // Declaracion de variables
-        String nombre, numCuenta,presentacion,cadena="",pantalla;
-        int contador = 0,seleccion, nuevaDeuda = 0,opcion2,anios = 0;
-        double capitalPrestamo;
+        String presentacion,cadena="",pantalla;
+        int contador = 0,seleccion, nuevaDeuda = 0,opcion2;
         presentacion = String.format("%50s%s%20s%20s%20s\n","REPORTE DE DEUDORES\n","No.Cliente","Nombre","No.Cuenta"
                 ,"Interés A pagar");
         // Ciclo While
@@ -25,7 +24,7 @@ public class EjecutaDeudores1 {
                     persona1.setCapitalPrestamo(Double.parseDouble(JOptionPane.showInputDialog("Ingrese capital")));
                     persona1.setAnios(Integer.parseInt(JOptionPane.showInputDialog("Ingrese años")));
                     persona1.calcularInteresPagar();
-                    cadena = String.format("%30s%20s%20s",persona1.getNombreD(),
+                    cadena = String.format("%30s%20s%20.2f",persona1.getNombreD(),
                             persona1.getNumeroCuenta(),persona1.getInteresPagar());
                     break;
                 case 1:
@@ -35,7 +34,7 @@ public class EjecutaDeudores1 {
                     presHipo.setCapitalPrestamo(Double.parseDouble(JOptionPane.showInputDialog("Ingrese capital")));
                     presHipo.setAnios(Integer.parseInt(JOptionPane.showInputDialog("Ingrese años")));
                     presHipo.calcularInteresPagar();
-                    cadena = String.format("%30s%20s%20s", presHipo.getNombreD(), presHipo.getNumeroCuenta(),
+                    cadena = String.format("%30s%20s%20.2f", presHipo.getNombreD(), presHipo.getNumeroCuenta(),
                             presHipo.getInteresPagar());
                     break;
                 case 2:
@@ -45,7 +44,7 @@ public class EjecutaDeudores1 {
                     presAut.setCapitalPrestamo(Double.parseDouble(JOptionPane.showInputDialog("Ingrese capital")));
                     presAut.setAnios(Integer.parseInt(JOptionPane.showInputDialog("Ingrese años")));
                     presAut.calcularInteresPagar();
-                    cadena = String.format("%30s%20s%20s",presAut.getNombreD(),presAut.getNumeroCuenta(),
+                    cadena = String.format("%30s%20s%20.2f",presAut.getNombreD(),presAut.getNumeroCuenta(),
                             presAut.getInteresPagar());
                     break;
                 case 3:
